@@ -1,7 +1,7 @@
 ---
 title: "Contact me"
 date: 2019-02-12T20:07:01+09:00
-draft: true
+draft: false
 ---
 
 

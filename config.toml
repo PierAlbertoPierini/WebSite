@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://pierini.tk/"
 languageCode = "en-us"
 title = "Pierini web site"
 
@@ -9,7 +9,7 @@ theme = "hermit"
 name = "Hermit"
 license = "MIT"
 licenselink = "https://github.com/Track3/hermit/blob/master/LICENSE"
-description = "A minimal and fast hugo theme for bloggers."
+description = "Pier Alberto Pierini`s web site"
 homepage = "https://github.com/Track3/hermit"
 tags = ["blog", "minimal", "dark", "responsive"]
 features = [
