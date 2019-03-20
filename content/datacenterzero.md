@@ -1,7 +1,7 @@
 ---
 title: "Data Center Zero"
 date: 2019-02-12T19:28:55+09:00
-draft: true
+draft: false
 ---
 
 ## Project Zero dot Zero
