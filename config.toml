@@ -1,4 +1,4 @@
-baseURL = "https://pierini.tk/"
+baseURL = ""
 languageCode = "en-us"
 title = "Pierini web site"
 
@@ -24,3 +24,31 @@ min_version = 0.43
 [author]
   name = "Track3"
   homepage = "https://www.xxxlbox.com"
+
+
+[menu]
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Contact Me"
+    url = "contactme/"
+    weight = 20
+
+    [[menu.main]]
+    name = "Data Center ZERO"
+    url = "datacenterzero/"
+    weight = 30
+  
+    [[menu.main]]
+    name = "Pier Alberto"
+    url = "pieralberto/"
+    weight = 40
+  
+    [[menu.main]]
+    name = "Services"
+    url = "services/"
+    weight = 20
