@@ -1,17 +1,19 @@
-baseURL = ""
+baseURL = "https://pierini.tk"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Pierini web site"
 
 baseurl = "/"
-
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 theme = "hermit"
+enableEmoji = true
+#name = "Hermit"
+#license = "MIT"
+#licenselink = "https://github.com/Track3/hermit/blob/master/LICENSE"
+#description = "Pier Alberto Pierini`s web site"
+#homepage = "https://github.com/Track3/hermit"
+#tags = ["minimal", "dark", "responsive"]
 
-name = "Hermit"
-license = "MIT"
-licenselink = "https://github.com/Track3/hermit/blob/master/LICENSE"
-description = "Pier Alberto Pierini`s web site"
-homepage = "https://github.com/Track3/hermit"
-tags = ["blog", "minimal", "dark", "responsive"]
 features = [
   "single column",
   "featured image",
@@ -21,9 +23,14 @@ features = [
 ]
 min_version = 0.43
 
+homeSubtitle = "My personal Portfolio"
+
+[taxonomies]
+tag = "tags"
+
 [author]
-  name = "Track3"
-  homepage = "https://www.xxxlbox.com"
+  name = "Pier Alberto"
+  homepage = "https://www.pierini.com"
 
 
 [menu]
@@ -31,24 +38,28 @@ min_version = 0.43
   [[menu.main]]
     name = "About"
     url = "about/"
-    weight = 10
+    weight = 40
 
   [[menu.main]]
     name = "Contact Me"
     url = "contactme/"
-    weight = 20
+    weight = 30
 
     [[menu.main]]
     name = "Data Center ZERO"
     url = "datacenterzero/"
-    weight = 30
+    weight = 20
   
     [[menu.main]]
     name = "Pier Alberto"
     url = "pieralberto/"
-    weight = 40
+    weight = 10
   
     [[menu.main]]
     name = "Services"
     url = "services/"
-    weight = 20
+    weight = 30
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/pieralbertopierini"
